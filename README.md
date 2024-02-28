@@ -1,7 +1,7 @@
 ### JavaScript Exercises
 
 ```sh
-* getLongestNonRepeatedText
+* getLongestNonRepeatedString
 ```
 
 #### Stack
@@ -9,4 +9,5 @@
 ```sh
 * NodeJS
 * JavaScript
+* Jest
 ```

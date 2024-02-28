@@ -1,5 +1,5 @@
-import { getLongestNonRepeatedText } from "./longestNonRepeatedString.js"
+const getLongestNonRepeatedString = require("./longestNonRepeatedString/longestNonRepeatedString.js")
 
-export default {
-	getLongestNonRepeatedText
+module.exports = {
+	getLongestNonRepeatedString
 }

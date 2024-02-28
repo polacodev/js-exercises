@@ -1,5 +1,5 @@
-import exercises from "./exercises/index.js"
+const exercises = require("./exercises/index.js")
 
-const res = exercises.getLongestNonRepeatedText("asd")
+const res = exercises.getLongestNonRepeatedString("asd")
 
 console.log("res=>", res)

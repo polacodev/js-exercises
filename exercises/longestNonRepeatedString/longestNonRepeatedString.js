@@ -4,7 +4,7 @@
  * output 	--> defghi
  * @returns the longest Non Repeated string
  */
-export const getLongestNonRepeatedText = (text) => {
+const getLongestNonRepeatedString = (text) => {
 	let response = ""
 	let responseAux = ""
 
@@ -28,4 +28,6 @@ export const getLongestNonRepeatedText = (text) => {
 }
 
 // const input = "abcddddefgh"
-// const res = getLongestNonRepeatedText(input)
+// const res = getLongestNonRepeatedString(input)
+
+module.exports = getLongestNonRepeatedString;
