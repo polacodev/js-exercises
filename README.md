@@ -5,6 +5,11 @@
 git clone https://github.com/polacodev/js-exercises.git
 ```
 
+#### Install the dependencies
+```sh
+npm install
+```
+
 #### Run the Exercises
 ```sh
 npm start
