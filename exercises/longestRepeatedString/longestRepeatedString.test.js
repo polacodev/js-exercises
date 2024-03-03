@@ -5,13 +5,13 @@ describe('getLongestRepeatedString', () => {
 		const input = "aabbccdaaabddcbb"
 		const output = "aaa"
 		const response = exercises.getLongestRepeatedString(input)
-		expect(output).toMatch(response)
+		expect(output).toBe(response)
 	});
 
 	it('should return ccc', () => {
 		const input = "abbccddabcdccc"
 		const output = "ccc"
 		const response = exercises.getLongestRepeatedString(input)
-		expect(output).toMatch(response)
+		expect(output).toBe(response)
 	});
 })
