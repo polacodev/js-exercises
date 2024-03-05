@@ -1,4 +1,4 @@
-const exercises = require("./exercises/index.js")
+const exercises = require('./exercises/index.js')
 
 // const res = exercises.getLongestNonRepeatedString("asd")
 // const res = exercises.countOccurrences("aabbcb")
@@ -12,6 +12,11 @@ const exercises = require("./exercises/index.js")
 // const res = exercises.stringCompression("wwwssdwwfccr")
 // const res = exercises.countSubstrings("abababab", "ab")
 // const res = exercises.stringRotation("waterbottle", "erbottlewat")
-const res = exercises.removeDuplicates("programming")
+// const res = exercises.removeDuplicates("programming")
+/** ARRAY EXERCISES */
 
-console.log("res=>", res)
+// const res = exercises.sumOfElements([1, 2, 3, 4, 5])
+// const res = exercises.removeDuplicatedElements([1, 2, 2, 3, 4, 4, 5])
+const res = exercises.arrayReversal([1, 2, 3, 4, 5])
+
+console.log('res=>', res)

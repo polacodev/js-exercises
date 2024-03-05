@@ -1,10 +1,10 @@
 const reverseString = (input) => {
-	let response = ""
+  let response = ''
 
-	for (let i = 0; i < input.length; i++) {
-		response = input[i] + response
-	}
-	return response;
+  for (let i = 0; i < input.length; i++) {
+    response = input[i] + response
+  }
+  return response
 }
 
-module.exports = reverseString;
+module.exports = reverseString

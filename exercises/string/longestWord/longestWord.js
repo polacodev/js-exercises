@@ -1,15 +1,15 @@
 const longestWord = (input) => {
-	let response = ""
+  let response = ''
 
-	const wordList = input.split(" ");
+  const wordList = input.split(' ')
 
-	for (let i = 0; i < wordList.length; i++) {
-		if (wordList[i].length > response.length) {
-			response = wordList[i]
-		}
-	}
+  for (let i = 0; i < wordList.length; i++) {
+    if (wordList[i].length > response.length) {
+      response = wordList[i]
+    }
+  }
 
-	return response
+  return response
 }
 
-module.exports = longestWord;
+module.exports = longestWord

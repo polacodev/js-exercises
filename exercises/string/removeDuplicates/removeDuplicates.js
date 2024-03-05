@@ -1,13 +1,13 @@
 const removeDuplicates = (input) => {
-	let response = ""
+  let response = ''
 
-	for (let i = 0; i < input.length; i++) {
-		if (!response.includes(input[i])) {
-			response += input[i]
-		}
-	}
+  for (let i = 0; i < input.length; i++) {
+    if (!response.includes(input[i])) {
+      response += input[i]
+    }
+  }
 
-	return response
+  return response
 }
 
-module.exports = removeDuplicates;
+module.exports = removeDuplicates
