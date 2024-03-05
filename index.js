@@ -17,6 +17,9 @@ const exercises = require('./exercises/index.js')
 
 // const res = exercises.sumOfElements([1, 2, 3, 4, 5])
 // const res = exercises.removeDuplicatedElements([1, 2, 2, 3, 4, 4, 5])
-const res = exercises.arrayReversal([1, 2, 3, 4, 5])
+// const res = exercises.arrayReversal([1, 2, 3, 4, 5])
+// const res = exercises.intersectionOfTwoArrays([1, 2, 3, 4], [3, 4, 5, 6])
+// const res = exercises.countArrayOccurrences([1, 2, 1, 3, 4, 2, 5, 1])
+const res = exercises.moveZerosToEnd([0, 2, 0, 4, 6, 0, 8])
 
 console.log('res=>', res)

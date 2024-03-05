@@ -47,3 +47,36 @@ Output: true
 Implement a function to remove duplicate characters from a string without using additional data structures.
 Input: "programming"
 Output: "progamin"
+
+#### Array Exercises
+
+1. Sum of Array Elements:
+Description: Write a function that calculates the sum of all elements in an array.
+Input: [1, 2, 3, 4, 5]
+Output: 15
+
+2. Array Reversal:
+Description: Implement a function to reverse the elements of an array.
+Input: [1, 2, 3, 4, 5]
+Output: [5, 4, 3, 2, 1]
+
+3. Remove Duplicates:
+Description: Write a function that removes duplicate elements from an array.
+Input: [1, 2, 2, 3, 4, 4, 5]
+Output: [1, 2, 3, 4, 5]
+
+4. Intersection of Two Arrays:
+Description: Implement a function that finds the intersection of two arrays.
+Input: [1, 2, 3, 4], [3, 4, 5, 6]
+Output: [3, 4]
+
+5. Count Occurrences:
+Description: Write a function that counts the occurrences of each element in an array.
+Input: [1, 2, 1, 3, 4, 2, 5, 1]
+Output: {1: 3, 2: 2, 3: 1, 4: 1, 5: 1}
+
+6. Move Zeros to End:
+Description: Implement a function that moves all zeros to the end of an array while maintaining the order of other elements.
+Input: [0, 2, 0, 4, 6, 0, 8]
+Output: [2, 4, 6, 8, 0, 0, 0]
+Feel free to use these examples for testing your solutions to the given array exercises!
