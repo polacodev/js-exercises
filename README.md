@@ -22,6 +22,7 @@ npm jest
 
 #### Exercises
 ```sh
+STRINGS
 1 getLongestNonRepeatedString
 2 countOccurrences
 3 getLongestRepeatedString
@@ -35,6 +36,14 @@ npm jest
 11 countSubstrings
 12 stringRotation
 13 removeDuplicates
+
+ARRAYS
+1 sumOfElements
+2 arrayReversal
+3 removeDuplicatedElements
+4 intersectionOfTwoArrays
+5 countArrayOccurrences
+6 moveZerosToEnd
 ```
 
 #### Stack
