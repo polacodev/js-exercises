@@ -1,4 +1,4 @@
-const exercises = require("../index.js")
+const exercises = require("../../index.js")
 
 describe('countOccurrences', () => {
 	test('should return defghi', () => {

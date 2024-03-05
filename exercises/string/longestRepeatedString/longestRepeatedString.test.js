@@ -1,4 +1,4 @@
-const exercises = require("../index")
+const exercises = require("../../index")
 
 describe('getLongestRepeatedString', () => {
 	it('should return aaa', () => {

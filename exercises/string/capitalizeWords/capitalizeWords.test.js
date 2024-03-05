@@ -1,4 +1,4 @@
-const exercises = require("../index")
+const exercises = require("../../index")
 
 describe("Capitalize Words", () => {
 	it("should return 'Capitalize The First Letter'", () => {

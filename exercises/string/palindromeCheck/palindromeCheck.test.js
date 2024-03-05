@@ -1,4 +1,4 @@
-const exercises = require("../index")
+const exercises = require("../../index")
 
 describe('Palindrome Check', () => {
 	it('should return true', () => {

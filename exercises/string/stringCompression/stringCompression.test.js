@@ -1,4 +1,4 @@
-const exercises = require("../index")
+const exercises = require("../../index")
 
 describe("String Compression", () => {
 	it("should return 'a2b1c5a3'", () => {
